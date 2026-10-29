@@ -324,6 +324,10 @@ html.js .rv.in { opacity: 1; transform: none; }
 
 /* v5 */
 .hero-photo { display: block; width: 100%; height: auto; aspect-ratio: 10 / 7; object-fit: cover; border-radius: calc(var(--radius) - 4px); margin: 0 0 1rem; }
+.awards-h { text-align: center; margin: 0 0 1.2rem; }
+.awards-grid { list-style: none; margin: 0 auto; padding: 0; max-width: 64rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr)); gap: .7rem; }
+.awards-grid li { display: flex; align-items: center; justify-content: center; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: .8rem; min-height: 7.5rem; }
+.awards-grid img { display: block; max-width: 100%; max-height: 6rem; width: auto; height: auto; }
 .awards { display: block; width: 100%; max-width: 64rem; height: auto; margin: 0 auto 1rem; border-radius: var(--radius); }
 @media (min-width: 640px) { .reviews > li:last-child:nth-child(odd) { grid-column: 1 / -1; justify-self: center; max-width: calc(50% - .5rem); } }
 
