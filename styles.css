@@ -379,3 +379,18 @@ section { padding: clamp(2rem, 5vw, 3.2rem) 0; }
   .nav-toggle { padding: .5rem .7rem; }
   .nav { position: absolute; left: 0; right: 0; top: 100%; background: #fff; padding: 0 12px .8rem; border-bottom: 1px solid var(--line); box-shadow: var(--shadow); }
 }
+
+/* SMS consent + legal pages (ACT-00805) */
+.field.consent { margin: .2rem 0 1rem; }
+.check { display: flex; align-items: flex-start; gap: .65rem; font-weight: 600; color: var(--ink); cursor: pointer; min-height: 44px; padding: .4rem 0; }
+.check input[type="checkbox"] { flex: 0 0 auto; width: 1.4rem; height: 1.4rem; margin-top: .1rem; accent-color: var(--blue); cursor: pointer; }
+.sms-disclosure { margin-top: .8rem; font-size: .78rem; line-height: 1.5; }
+.legal { padding: 2rem 0 3rem; }
+.legal .wrap { max-width: 52rem; }
+.legal h1 { margin: .6rem 0 1.2rem; }
+.legal-body h3 { margin-top: 1.6rem; }
+.legal-body p, .legal-body ul, .legal-body ol { margin: 0 0 1rem; }
+.legal-body ul, .legal-body ol { padding-left: 1.4rem; }
+.legal-body li { margin-bottom: .4rem; overflow-wrap: anywhere; }
+.legal-src { margin: 1.5rem 0 1rem; }
+.footer-bottom a { color: inherit; }
