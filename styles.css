@@ -382,8 +382,8 @@ section { padding: clamp(2rem, 5vw, 3.2rem) 0; }
 
 /* SMS consent + legal pages (ACT-00805) */
 .field.consent { margin: .2rem 0 1rem; }
-.check { display: flex; align-items: flex-start; gap: .65rem; font-weight: 600; color: var(--ink); cursor: pointer; min-height: 44px; padding: .4rem 0; }
-.check input[type="checkbox"] { flex: 0 0 auto; width: 1.4rem; height: 1.4rem; margin-top: .1rem; accent-color: var(--blue); cursor: pointer; }
+.field .check { display: flex; align-items: center; gap: .65rem; margin: 0; font-weight: 600; color: var(--ink); cursor: pointer; min-height: 44px; padding: .4rem 0; }
+.field .check input[type="checkbox"] { flex: 0 0 auto; width: 1.4rem; height: 1.4rem; margin: 0; padding: 0; accent-color: var(--blue); cursor: pointer; }
 .sms-disclosure { margin-top: .8rem; font-size: .78rem; line-height: 1.5; }
 .legal { padding: 2rem 0 3rem; }
 .legal .wrap { max-width: 52rem; }
