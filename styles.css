@@ -394,3 +394,10 @@ section { padding: clamp(2rem, 5vw, 3.2rem) 0; }
 .legal-body li { margin-bottom: .4rem; overflow-wrap: anywhere; }
 .legal-src { margin: 1.5rem 0 1rem; }
 .footer-bottom a { color: inherit; }
+
+/* Recent jobs gallery */
+.job-grid { list-style: none; margin: 1.2rem auto 0; padding: 0; max-width: 64rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr)); gap: .7rem; }
+.job-grid figure { margin: 0; position: relative; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow); background: #fff; }
+.job-grid img { display: block; width: 100%; height: 15rem; object-fit: cover; }
+.job-grid figcaption { position: absolute; left: .5rem; bottom: .5rem; background: rgba(15,48,87,.85); color: #fff; font-weight: 700; font-size: .8rem; padding: .15rem .55rem; border-radius: 4px; }
+#gallery .lead { margin-left: auto; margin-right: auto; }
