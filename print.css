@@ -1,0 +1,6 @@
+.site-header, .nav, .cta-band, .trust, .form-card, .skip, .btn, .site-footer nav { display: none !important; }
+body { color: #000; background: #fff; font-size: 11pt; }
+a { color: #000; text-decoration: none; }
+a[href^="tel:"]::after, a[href^="mailto:"]::after { content: " (" attr(href) ")"; font-size: .85em; }
+section { padding: 1rem 0; }
+.card, .hero-card { box-shadow: none; border: 1px solid #999; break-inside: avoid; }
